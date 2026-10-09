@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>MARONFIT | Hugo Mol Maron — Nutricionista em Emagrecimento, Saúde e Performance</title>
+  <meta name="description" content="MaronFit: estratégias nutricionais personalizadas para emagrecimento, saúde e performance com o nutricionista Hugo Mol Maron, pós-graduado em Nutrição Esportiva. Fale pelo WhatsApp.">
+  <meta name="keywords" content="nutricionista, nutrição esportiva, emagrecimento, performance, saúde, Hugo Mol Maron, MaronFit">
+  <meta name="author" content="Hugo Mol Maron">
+  <meta name="theme-color" content="#101214">
+  <!-- Endereço oficial do site. Se comprar um domínio próprio, troque aqui, no og:url, no og:image, no sitemap.xml e no robots.txt -->
+  <link rel="canonical" href="https://site-hugo.vercel.app/">
+
+  <!-- Open Graph / redes sociais -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:site_name" content="MARONFIT">
+  <meta property="og:title" content="MARONFIT — Sua transformação começa com uma estratégia">
+  <meta property="og:description" content="Emagrecimento, saúde e performance com estratégias nutricionais personalizadas. Nutricionista Hugo Mol Maron.">
+  <meta property="og:url" content="https://site-hugo.vercel.app/">
+  <meta property="og:image" content="https://site-hugo.vercel.app/assets/img/og-maronfit.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="675">
+  <link rel="preload" as="image" href="assets/video/hero.webp">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,600;0,700;0,800;0,900;1,800;1,900&family=Hanken+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css?v=33">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "#hugo",
+        "name": "Hugo Mol Maron",
+        "jobTitle": "Nutricionista",
+        "identifier": "CRN-9 37282",
+        "email": "mailto:hugomolm07@gmail.com",
+        "telephone": "+55-31-98423-9408",
+        "image": "https://site-hugo.vercel.app/assets/img/hugo.jpg",
+        "url": "https://site-hugo.vercel.app/",
+        "sameAs": ["https://www.instagram.com/hugomaronnutri"],
+        "knowsAbout": ["Nutrição", "Nutrição Esportiva", "Emagrecimento", "Performance"]
+      },
+      {
+        "@type": "ProfessionalService",
+        "name": "MARONFIT",
+        "description": "Estratégias nutricionais para emagrecimento, saúde e performance.",
+        "founder": { "@id": "#hugo" },
+        "email": "hugomolm07@gmail.com",
+        "telephone": "+55-31-98423-9408",
+        "sameAs": ["https://www.instagram.com/hugomaronnutri"]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+
+<!-- ============ ÍCONES (sprite SVG) ============ -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-wa" viewBox="0 0 24 24"><path d="M3 21l1.65-3.8a9 9 0 1 1 3.4 2.9L3 21"/><path d="M9 10a.5.5 0 0 0 1 0V9a.5.5 0 0 0-1 0v1a5 5 0 0 0 5 5h1a.5.5 0 0 0 0-1h-1a.5.5 0 0 0 0 1"/></symbol>
+    <symbol id="i-ig" viewBox="0 0 24 24"><path d="M4 8a4 4 0 0 1 4-4h8a4 4 0 0 1 4 4v8a4 4 0 0 1-4 4H8a4 4 0 0 1-4-4z"/><path d="M9 12a3 3 0 1 0 6 0a3 3 0 0 0-6 0"/><path d="M16.5 7.5v.01"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><path d="M3 7a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><path d="M3 7l9 6l9-6"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14"/><path d="M13 18l6-6"/><path d="M13 6l6 6"/></symbol>
+    <symbol id="i-down" viewBox="0 0 24 24"><path d="M12 5v14"/><path d="M18 13l-6 6"/><path d="M6 13l6 6"/></symbol>
+    <symbol id="i-left" viewBox="0 0 24 24"><path d="M15 6l-6 6l6 6"/></symbol>
+    <symbol id="i-right" viewBox="0 0 24 24"><path d="M9 6l6 6l-6 6"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0-18 0"/><path d="M12 7v5l3 3"/></symbol>
+    <symbol id="i-grad" viewBox="0 0 24 24"><path d="M22 9L12 5L2 9l10 4l10-4v6"/><path d="M6 10.6V16a6 3 0 0 0 12 0v-5.4"/></symbol>
+    <symbol id="i-target" viewBox="0 0 24 24"><path d="M11 12a1 1 0 1 0 2 0a1 1 0 1 0-2 0"/><path d="M7 12a5 5 0 1 0 10 0a5 5 0 1 0-10 0"/><path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0-18 0"/></symbol>
+    <symbol id="i-pulse" viewBox="0 0 24 24"><path d="M3 12h4l3 8l4-16l3 8h4"/></symbol>
+    <symbol id="i-flame" viewBox="0 0 24 24"><path d="M12 12c2-2.96 0-7-1-8c0 3.038-1.773 4.741-3 6c-1.226 1.26-2 3.24-2 5a6 6 0 1 0 12 0c0-1.532-1.056-3.94-2-5c-1.786 3-2.791 3-4 2z"/></symbol>
+    <symbol id="i-barbell" viewBox="0 0 24 24"><path d="M2 12h1"/><path d="M6 8H4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2"/><path d="M6 7v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1z"/><path d="M9 12h6"/><path d="M15 7v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1h-1a1 1 0 0 0-1 1z"/><path d="M18 8h2a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1h-2"/><path d="M22 12h-1"/></symbol>
+    <symbol id="i-heart" viewBox="0 0 24 24"><path d="M19.5 12.572L12 20l-7.5-7.428A5 5 0 1 1 12 6.006a5 5 0 1 1 7.5 6.572"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3a12 12 0 0 0 8.5 3A12 12 0 0 1 12 21A12 12 0 0 1 3.5 6A12 12 0 0 0 12 3"/><path d="M9 12l2 2l4-4"/></symbol>
+    <symbol id="i-quote" viewBox="0 0 24 24"><path d="M10 11H6a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h3a1 1 0 0 1 1 1v6c0 2.667-1.333 4.333-4 5"/><path d="M19 11h-4a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h3a1 1 0 0 1 1 1v6c0 2.667-1.333 4.333-4 5"/></symbol>
+  </defs>
+</svg>
+
+<a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+<!-- ============ CABEÇALHO ============ -->
+<header class="site-header" id="topo">
+  <div class="header-inner">
+    <a href="#inicio" class="logo" aria-label="MARONFIT — início">MARON<span>FIT</span></a>
+  </div>
+</header>
+
+<main id="conteudo">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero hero--vsl" id="inicio" aria-labelledby="hero-title">
+    <div class="hero-glow" aria-hidden="true"></div>
+    <div class="container hero-vsl">
+
+      <!-- HEADLINE (acima do vídeo) -->
+      <h1 id="hero-title" class="hero-title">
+        <span class="hero-line">
+          <span class="hl">Você se esforça, faz sacrifícios</span>
+          <span class="hl">e, mesmo assim, <em>não vê resultados?</em></span>
+        </span>
+        <span class="hero-cue">Assista ao vídeo abaixo!</span>
+      </h1>
+
+      <!-- VÍDEO DE VENDAS (VSL) — player Atomicat (código fornecido pela plataforma) -->
+      <div class="vsl hero-anim">
+        <div class="vsl-frame" data-vsl>
+          <video-js id="_a4f2b841-d3a6-40d2-9cad-8c10aa3aa719" fluid="true" primaryColor="#4adede" muted="true" autoplay sP="true" playsinline><source src="https://vz-86fbd55a-ec2.b-cdn.net/a4f2b841-d3a6-40d2-9cad-8c10aa3aa719/playlist.m3u8" type="application/x-mpegURL" /></video-js><script type="text/javascript">document.head.appendChild(Object.assign(document.createElement("script"), {src: "https://cdn.atomicatmedia.net/cdn/s2.js?id=_a4f2b841-d3a6-40d2-9cad-8c10aa3aa719&cache=" + Math.floor((Math.random() * 100000)),async: true}));</script>
+        </div>
+      </div>
+
+      <!-- BOTÃO PULSANTE (abaixo do vídeo) — aparece depois de 5 min (300 s) de vídeo.
+           Para mudar o tempo, altere data-delay-seconds. -->
+      <div class="vsl-cta hero-anim" data-delay-seconds="300" hidden>
+        <a class="btn-vsl" href="https://pay.kiwify.com.br/GdFh7je" data-checkout>
+          Quero começar minha transformação
+        </a>
+      </div>
+
+      <ul class="hero-trust hero-anim" aria-label="Destaques">
+        <li><strong>Desde 2023</strong> em atendimentos</li>
+        <li><strong>Pós-graduação</strong> em Nutrição Esportiva</li>
+        <li><strong>Centenas</strong> de vidas transformadas</li>
+      </ul>
+    </div>
+
+    <a href="#para-voce" class="scroll-cue" aria-label="Rolar para a próxima seção">
+      <span>Role</span>
+      <svg class="icon" aria-hidden="true"><use href="#i-down"/></svg>
+    </a>
+  </section>
+
+  <!-- ============ MARQUEE ============ -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <span>Emagrecimento</span><i>✦</i><span class="outline">Saúde</span><i>✦</i><span>Performance</span><i>✦</i><span class="outline">MaronFit</span><i>✦</i>
+      <span>Emagrecimento</span><i>✦</i><span class="outline">Saúde</span><i>✦</i><span>Performance</span><i>✦</i><span class="outline">MaronFit</span><i>✦</i>
+    </div>
+  </div>
+
+  <!-- ============ IDENTIFICAÇÃO ============ -->
+  <section class="section light identify" id="para-voce" aria-labelledby="para-voce-title">
+    <div class="container split">
+      <figure class="media-frame media-frame--wide" data-anim="clip-reveal">
+        <video class="bg-video a" data-src="assets/video/identificacao.mp4" poster="assets/video/identificacao.webp"
+               muted loop playsinline preload="none" aria-hidden="true"></video>
+      </figure>
+      <div data-anim="slide-right">
+        <h2 id="para-voce-title" class="section-title a">Cuidar da alimentação pode caber na sua rotina.</h2>
+        <p class="section-lead a">Sem fórmulas prontas: a estratégia nutricional é pensada a partir da sua realidade, dos seus horários, das suas preferências e dos seus objetivos.</p>
+        <a class="btn-vsl a" href="https://pay.kiwify.com.br/GdFh7je" data-checkout>
+          Quero começar minha transformação
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ AUTORIDADE / SOBRE ============ -->
+  <section class="section about" id="sobre" aria-labelledby="sobre-title">
+    <div class="container about-grid">
+      <div class="about-collage" data-anim="scale-up">
+        <div class="collage-col">
+          <figure class="collage-item collage-item--tall a">
+            <img src="assets/img/quem-e/hugo-formatura.webp" width="900" height="1200" loading="lazy"
+                 alt="Hugo Maron na formatura de Nutrição, com medalha e diploma">
+          </figure>
+          <figure class="collage-item a">
+            <img src="assets/img/quem-e/hugo-esposa-praia.webp" width="900" height="1200" loading="lazy"
+                 alt="Hugo Maron e a esposa em uma praia">
+          </figure>
+        </div>
+        <div class="collage-col collage-col--offset">
+          <figure class="collage-item a">
+            <img src="assets/img/quem-e/hugo-almoco.webp" width="900" height="1200" loading="lazy"
+                 alt="Hugo Maron sorrindo durante um almoço com vista para o mar">
+          </figure>
+          <figure class="collage-item collage-item--tall a">
+            <img src="assets/img/quem-e/hugo-esposa-roma.webp" width="900" height="1600" loading="lazy"
+                 alt="Hugo Maron e a esposa em frente ao Coliseu, em Roma">
+          </figure>
+        </div>
+        <p class="collage-tag a"><strong>Hugo Maron</strong> Nutricionista · CRN-9 37282</p>
+      </div>
+      <div class="about-copy" data-anim="slide-left">
+        <h2 id="sobre-title" class="section-title a">Conheça o profissional por trás do <span class="lime">MaronFit</span></h2>
+        <p class="about-name a"><strong>Hugo Mol Maron</strong> — Nutricionista</p>
+        <div class="prose a">
+          <p>Meu nome é Hugo Maron, sou nutricionista e pós-graduado em Nutrição Esportiva, mas minha trajetória começou longe da nutrição.</p>
+          <p>Minha primeira formação foi em Engenharia de Produção. Depois de enfrentar o efeito sanfona diversas vezes, chegar a pesar mais de 100 kg e finalmente conseguir perder 30 kg, descobri que mudar o corpo não precisava significar viver em restrição.</p>
+          <p>Essa experiência despertou minha paixão pela nutrição e me levou a buscar uma segunda formação, na qual me formei como melhor aluno da minha turma.</p>
+          <p>Hoje, ajudo pessoas a emagrecer, ganhar massa muscular e melhorar sua composição corporal, sempre com uma filosofia: <strong class="lime">a alimentação precisa se adaptar à sua vida, e não o contrário.</strong></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TRAJETÓRIA ============ -->
+  <section class="trajectory" aria-labelledby="trajetoria-title">
+    <div class="section-bg" aria-hidden="true">
+      <video class="bg-video" data-src="assets/video/trajetoria.mp4" poster="assets/video/trajetoria.webp"
+             muted loop playsinline preload="none"></video>
+    </div>
+    <div class="container">
+      <h2 id="trajetoria-title" class="trajectory-title" data-anim="fade-up"><span class="a">Experiência profissional e formação acadêmica</span></h2>
+      <ol class="timeline" data-anim="stagger-up" aria-label="Trajetória">
+        <li class="timeline-item a">
+          <span class="timeline-year"><span class="counter" data-value="2023" data-from="2000">2023</span></span>
+          <span class="timeline-text">Início dos atendimentos nutricionais.</span>
+        </li>
+        <li class="timeline-item a">
+          <span class="timeline-year"><span class="counter" data-value="2025" data-from="2000">2025</span></span>
+          <span class="timeline-text">Graduação em Nutrição.</span>
+        </li>
+        <li class="timeline-item a">
+          <span class="timeline-year"><span class="counter" data-value="2026" data-from="2000">2026</span></span>
+          <span class="timeline-text">Pós-graduação em Nutrição Esportiva.</span>
+        </li>
+        <li class="timeline-item timeline-item--accent a">
+          <span class="timeline-year timeline-year--word">Centenas</span>
+          <span class="timeline-text">de vidas transformadas ao longo da trajetória.</span>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ============ RESULTADOS E HISTÓRIAS ============ -->
+  <section class="section stories" id="resultados" aria-labelledby="resultados-title">
+    <div class="section-bg section-bg--top" aria-hidden="true">
+      <video class="bg-video" data-src="assets/video/historias.mp4" poster="assets/video/historias.webp"
+             muted loop playsinline preload="none"></video>
+    </div>
+    <div class="container">
+      <div class="section-head section-head--split" data-anim="slide-right">
+        <div>
+          <h2 id="resultados-title" class="section-title a">Centenas de vidas transformadas. <span class="lime">Cada história importa.</span></h2>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- PROVA SOCIAL (faixa lateral contínua)
+         Para adicionar um post: copie um bloco <figure class="proof-card"> abaixo,
+         troque a imagem (pasta assets/img/prova-social/), o texto alternativo e a legenda.
+         A faixa se repete sozinha; não é preciso duplicar os posts.
+         Publique apenas relatos reais, com autorização por escrito do paciente
+         e em conformidade com o Código de Ética do Nutricionista (CFN). -->
+    <div class="proof-marquee" data-proof-marquee aria-label="Prova social: histórias reais">
+        <div class="proof-track" data-proof-track tabindex="0">
+          <figure class="proof-card proof-card--featured">
+            <img src="assets/img/prova-social/01-joao-vitor.webp" width="900" height="1126" loading="lazy"
+                 alt="João Vitor antes e depois do acompanhamento: de 140 kg para 80 kg.">
+            <figcaption>João Vitor · paciente MaronFit</figcaption>
+          </figure>
+          <figure class="proof-card proof-card--text">
+            <img src="assets/img/prova-social/02-depoimento-7kg.webp" width="900" height="566" loading="lazy"
+                 alt="Mensagem de paciente: Ei Hugo, boa noite! Passando para te falar que pesei hoje e já foram 7kg desde que começamos. Nunca tinha conseguido seguir uma dieta tão bem, o suporte está sendo muito bom, era o que eu precisava.">
+            <figcaption>Depoimento de paciente</figcaption>
+          </figure>
+          <figure class="proof-card">
+            <img src="assets/img/prova-social/03-hugo-antes-depois-1.webp" width="900" height="900" loading="lazy"
+                 alt="Hugo Mol Maron antes e depois da própria transformação.">
+            <figcaption>Hugo Mol Maron · antes e depois</figcaption>
+          </figure>
+          <figure class="proof-card proof-card--text">
+            <img src="assets/img/prova-social/04-depoimento-suporte.webp" width="900" height="576" loading="lazy"
+                 alt="Feedback de paciente: com o suporte do dia a dia no WhatsApp me sinto acompanhada o tempo todo e pra mim foi a virada de chave que faltava. Já foram 6 kg nesses 40 dias.">
+            <figcaption>Depoimento de paciente</figcaption>
+          </figure>
+          <figure class="proof-card">
+            <img src="assets/img/prova-social/05-hugo-antes-depois-2.webp" width="900" height="900" loading="lazy"
+                 alt="Hugo Mol Maron antes, na praia, e depois, em forma.">
+            <figcaption>Hugo Mol Maron · antes e depois</figcaption>
+          </figure>
+          <figure class="proof-card proof-card--text">
+            <img src="assets/img/prova-social/06-depoimento-dieta.webp" width="900" height="520" loading="lazy"
+                 alt="Feedback de paciente: acho a dieta ótima e desde o início nunca foi um sacrifício pra mim, dentro do que eu gosto de comer e com as quantidades corretas.">
+            <figcaption>Depoimento de paciente</figcaption>
+          </figure>
+          <figure class="proof-card proof-card--text">
+            <img src="assets/img/prova-social/07-depoimento-balanca.webp" width="900" height="582" loading="lazy"
+                 alt="Feedback de paciente: ver a evolução na balança consumindo o que gosto, vale muito a pena!">
+            <figcaption>Depoimento de paciente</figcaption>
+          </figure>
+        </div>
+    </div>
+  </section>
+
+  <!-- ============ DIFERENCIAIS ============ -->
+  <section class="section light" id="diferenciais" aria-labelledby="dif-title">
+    <div class="container">
+      <div class="section-head" data-anim="slide-left">
+        <h2 id="dif-title" class="section-title a">Por que conhecer o MaronFit?</h2>
+      </div>
+
+      <div class="features-layout">
+      <figure class="media-frame media-frame--tall features-media" data-anim="clip-reveal">
+        <video class="bg-video a" data-src="assets/video/beneficios.mp4" poster="assets/video/beneficios.webp"
+               muted loop playsinline preload="none" aria-hidden="true"></video>
+        <figcaption class="media-tag">Emagrecimento &amp; performance</figcaption>
+      </figure>
+      <div class="features" data-anim="scale-up">
+        <article class="feature a">
+          <span class="feature-icon"><svg class="icon" aria-hidden="true"><use href="#i-clock"/></svg></span>
+          <h3>Experiência prática</h3>
+          <p>Atendimentos nutricionais realizados desde 2023, ainda durante a formação acadêmica.</p>
+        </article>
+        <article class="feature a">
+          <span class="feature-icon"><svg class="icon" aria-hidden="true"><use href="#i-grad"/></svg></span>
+          <h3>Formação especializada</h3>
+          <p>Graduação em Nutrição e pós-graduação em Nutrição Esportiva.</p>
+        </article>
+        <article class="feature a">
+          <span class="feature-icon"><svg class="icon" aria-hidden="true"><use href="#i-target"/></svg></span>
+          <h3>Feito para a sua rotina</h3>
+          <p>Abordagem voltada à realidade, às preferências e ao dia a dia de cada pessoa.</p>
+        </article>
+        <article class="feature a">
+          <span class="feature-icon"><svg class="icon" aria-hidden="true"><use href="#i-pulse"/></svg></span>
+          <h3>Compromisso integral</h3>
+          <p>Cuidado com saúde, emagrecimento e performance de forma equilibrada.</p>
+        </article>
+      </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROGRAMAS (estrutura para venda futura) ============
+       Fica oculta enquanto a lista "programas" em js/config.js estiver vazia. -->
+  <section class="section programs" id="programas" aria-labelledby="programas-title" hidden>
+    <div class="container">
+      <div class="section-head" data-anim="fade-up">
+        <p class="label a">Programas</p>
+        <h2 id="programas-title" class="section-title a">Escolha o seu ponto de partida.</h2>
+      </div>
+      <div class="program-grid" data-programas></div>
+    </div>
+  </section>
+
+  <!-- ============ CTA ============ -->
+  <section class="cta" id="cta" aria-labelledby="cta-title">
+    <div class="cta-photo" aria-hidden="true">
+      <img src="assets/img/hugo-cta.webp" alt="" width="1000" height="1250" loading="lazy">
+    </div>
+    <div class="cta-glow" aria-hidden="true"></div>
+    <div class="container cta-inner" data-anim="clip-reveal">
+      <h2 id="cta-title" class="cta-title a">Você não precisa esperar para começar a <span class="lime">cuidar de si.</span></h2>
+      <a class="btn-vsl a" href="https://pay.kiwify.com.br/GdFh7je" data-checkout>
+          Quero começar minha transformação
+        </a>
+    </div>
+  </section>
+
+  <!-- ============ FAQ ============ -->
+  <section class="section light faq-section" id="faq" aria-labelledby="faq-title">
+    <div class="container faq-grid">
+      <div class="faq-head" data-anim="slide-right">
+        <h2 id="faq-title" class="section-title a">Perguntas frequentes</h2>
+      </div>
+
+      <div class="faq" data-anim="stagger-up">
+        <details class="faq-item a">
+          <summary>O que é o MaronFit?</summary>
+          <div class="faq-body"><p>O MaronFit é o projeto do nutricionista Hugo Mol Maron que reúne estratégias de nutrição voltadas para o emagrecimento, a saúde e a performance, valorizando a individualidade e a construção de hábitos sustentáveis.</p></div>
+        </details>
+        <details class="faq-item a">
+          <summary>Quem é Hugo Mol Maron?</summary>
+          <div class="faq-body"><p>Hugo Mol Maron é nutricionista, formado em Nutrição em 2025 e pós-graduado em Nutrição Esportiva em 2026. Realiza atendimentos desde 2023, quando começou no consultório da faculdade, e participou da transformação de centenas de vidas ao longo da sua trajetória.</p></div>
+        </details>
+        <details class="faq-item a">
+          <summary>O MaronFit é indicado para quem deseja emagrecer?</summary>
+          <div class="faq-body"><p>Sim. O emagrecimento é um dos focos do MaronFit, sempre com estratégias alimentares compatíveis com a rotina e os objetivos de cada pessoa. A conduta é definida de forma individual, após a avaliação nutricional.</p></div>
+        </details>
+        <details class="faq-item a">
+          <summary>O programa também atende pessoas que praticam atividades físicas?</summary>
+          <div class="faq-body"><p>Sim. Com pós-graduação em Nutrição Esportiva, Hugo direciona a estratégia nutricional para apoiar a prática de atividades físicas e a evolução de performance.</p></div>
+        </details>
+        <details class="faq-item a">
+          <summary>Como funcionam os atendimentos?</summary>
+          <!-- EDITAR: inclua formato (online/presencial), duração, retornos e valores quando estiverem definidos -->
+          <div class="faq-body"><p>As informações sobre formatos de atendimento, etapas de acompanhamento e valores são apresentadas diretamente pelo Hugo no primeiro contato. Envie uma mensagem pelo WhatsApp para receber todos os detalhes.</p></div>
+        </details>
+        <details class="faq-item a">
+          <summary>Como posso começar?</summary>
+          <div class="faq-body"><p>É simples: entre em contato pelo WhatsApp, conte quais são seus objetivos e receba as orientações sobre os próximos passos para iniciar sua jornada.</p></div>
+        </details>
+        <details class="faq-item a">
+          <summary>Como entrar em contato com o nutricionista?</summary>
+          <div class="faq-body">
+            <p>Você pode falar com o Hugo por qualquer um destes canais:</p>
+            <ul>
+              <li>WhatsApp: <a href="https://wa.me/5531984239408" data-wa target="_blank" rel="noopener">(31) 98423-9408</a></li>
+              <li>E-mail: <a href="mailto:hugomolm07@gmail.com">hugomolm07@gmail.com</a></li>
+              <li>Instagram: <a href="https://www.instagram.com/hugomaronnutri" target="_blank" rel="noopener">@hugomaronnutri</a></li>
+            </ul>
+          </div>
+        </details>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- ============ RODAPÉ ============ -->
+<footer class="footer">
+  <div class="footer-word" aria-hidden="true">MARONFIT</div>
+  <div class="container footer-grid footer-grid--full">
+    <div class="footer-brand">
+      <a href="#inicio" class="logo logo--lg">MARON<span>FIT</span></a>
+      <p>Emagrecimento, saúde e performance com estratégias nutricionais personalizadas para a sua rotina.</p>
+      <p class="footer-pro"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a12 12 0 0 0 8.5 3A12 12 0 0 1 12 21A12 12 0 0 1 3.5 6A12 12 0 0 0 12 3"/><path d="M9 12l2 2l4-4"/></svg> <span><strong>Hugo Mol Maron</strong> — Nutricionista · CRN-9 37282<br>Pós-graduado em Nutrição Esportiva</span></p>
+      <ul class="footer-social" aria-label="Redes sociais">
+        <li><a href="https://www.instagram.com/hugomaronnutri" target="_blank" rel="noopener" aria-label="Instagram"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 8a4 4 0 0 1 4-4h8a4 4 0 0 1 4 4v8a4 4 0 0 1-4 4H8a4 4 0 0 1-4-4z"/><path d="M9 12a3 3 0 1 0 6 0a3 3 0 0 0-6 0"/><path d="M16.5 7.5v.01"/></svg></a></li>
+        <li><a href="https://wa.me/5531984239408" target="_blank" rel="noopener" aria-label="WhatsApp"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 21l1.65-3.8a9 9 0 1 1 3.4 2.9L3 21"/><path d="M9 10a.5.5 0 0 0 1 0V9a.5.5 0 0 0-1 0v1a5 5 0 0 0 5 5h1a.5.5 0 0 0 0-1h-1a.5.5 0 0 0 0 1"/></svg></a></li>
+        <li><a href="mailto:hugomolm07@gmail.com" aria-label="E-mail"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 7a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><path d="M3 7l9 6l9-6"/></svg></a></li>
+      </ul>
+    </div>
+    <div>
+      <p class="footer-heading">Contato</p>
+      <ul class="footer-list footer-list--icons">
+        <li><a href="https://www.instagram.com/hugomaronnutri" target="_blank" rel="noopener"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 8a4 4 0 0 1 4-4h8a4 4 0 0 1 4 4v8a4 4 0 0 1-4 4H8a4 4 0 0 1-4-4z"/><path d="M9 12a3 3 0 1 0 6 0a3 3 0 0 0-6 0"/><path d="M16.5 7.5v.01"/></svg><span><small>Instagram</small>@hugomaronnutri</span></a></li>
+        <li><a href="https://wa.me/5531984239408" target="_blank" rel="noopener"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 21l1.65-3.8a9 9 0 1 1 3.4 2.9L3 21"/><path d="M9 10a.5.5 0 0 0 1 0V9a.5.5 0 0 0-1 0v1a5 5 0 0 0 5 5h1a.5.5 0 0 0 0-1h-1a.5.5 0 0 0 0 1"/></svg><span><small>WhatsApp</small>(31) 98423-9408</span></a></li>
+        <li><a href="mailto:hugomolm07@gmail.com"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 7a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><path d="M3 7l9 6l9-6"/></svg><span><small>E-mail</small>hugomolm07@gmail.com</span></a></li>
+      </ul>
+    </div>
+    <div>
+      <p class="footer-heading">Navegação</p>
+      <ul class="footer-list">
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#sobre">Sobre o Hugo</a></li>
+        <li><a href="#resultados">Histórias</a></li>
+        <li><a href="#diferenciais">Diferenciais</a></li>
+        <li><a href="#faq">Perguntas frequentes</a></li>
+        <li><a href="https://pay.kiwify.com.br/GdFh7je">Quero começar</a></li>
+      </ul>
+    </div>
+    <div>
+      <p class="footer-heading">Legal</p>
+      <ul class="footer-list">
+        <li><a href="politica-de-privacidade.html">Política de Privacidade</a></li>
+        <li><a href="termos-de-uso.html">Termos de Uso</a></li>
+      </ul>
+      <p class="footer-secure"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 13a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2z"/><path d="M8 11V7a4 4 0 1 1 8 0v4"/></svg> Pagamento seguro processado pela Kiwify</p>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <p>Copyright © 2026 MARONFIT · Hugo Mol Maron · CRN-9 37282. Todos os direitos reservados.</p>
+    <p>As informações deste site têm caráter informativo e não substituem uma consulta nutricional individualizada. Os relatos da seção Histórias são reais e divulgados com autorização; resultados variam de pessoa para pessoa. Política de Privacidade e Termos de Uso atualizados em 9 de outubro de 2026.</p>
+  </div>
+</footer>
+
+<!-- Botão flutuante do WhatsApp -->
+<a class="wa-float" href="https://wa.me/5531984239408" data-wa target="_blank" rel="noopener" aria-label="Falar com Hugo pelo WhatsApp">
+  <svg class="icon" aria-hidden="true"><use href="#i-wa"/></svg>
+  <span class="wa-float-label">Fale comigo</span>
+</a>
+
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="js/config.js?v=33"></script>
+<script src="js/main.js?v=33"></script>
+</body>
+</html>
